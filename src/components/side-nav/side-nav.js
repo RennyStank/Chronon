@@ -8,12 +8,10 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
 
-var testList = ["test"];  
+var testList = ["test1","test2"];  
 document.addEventListener("DOMContentLoaded", function(){
-  console.log("triggered");
+  console.log("triggered new");
   document.getElementById("testdiv").innerHTML = testList.map(poster =>
-    <div>
-      <a href="#">${poster}</a>
-    </div>
+    '<a href="#">'+poster+'</a>'
   ).join('')
 });
