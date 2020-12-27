@@ -7,3 +7,13 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+var testList = ["test"];  
+document.addEventListener("DOMContentLoaded", function(){
+  console.log("triggered");
+  document.getElementById("testdiv").innerHTML = testList.map(poster =>
+    <div>
+      <a href="#">${poster}</a>
+    </div>
+  );
+});
