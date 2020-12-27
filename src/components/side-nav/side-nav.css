@@ -2,12 +2,13 @@
     height: 10%;
     width: 100%;
     z-index: 1;
+    flex-direction: row;
     overflow-x: hidden;
 }
 
 .navprof a {
-    height: max-content;
-    width: max-content;
+    height: 100%;
+    width: 100%;
     display: block;
 }
 
