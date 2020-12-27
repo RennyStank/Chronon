@@ -15,5 +15,5 @@ document.addEventListener("DOMContentLoaded", function(){
     <div>
       <a href="#">${poster}</a>
     </div>
-  );
+  ).join('')
 });
