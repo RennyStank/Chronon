@@ -1,17 +1,11 @@
 .navprof {
-    height: 10%;
+    height: fit-content;
     width: 100%;
     flex-direction: row;
     z-index: 256;
     overflow-x: hidden;
     position: relative;
     display: inline-block;
-}
-
-.navprof a {
-    height: 100%;
-    width: 100%;
-    display: block;
 }
 
 .navprof .profpic {
@@ -24,6 +18,8 @@
   padding: 16px;
   font-size: 16px;
   border: none;
+  height: 10%;
+  width: 100%;
 }
 
 .dropdown-content {
