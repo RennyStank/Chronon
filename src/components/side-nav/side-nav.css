@@ -39,10 +39,13 @@
   }
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+  .sidenavmain a:hover {
     color: #f1f1f1;
   }
-  
+ 
+  .sidenavmain a::selection {
+    color: #f1f1f1;
+  }
   /* Position and style the close button (top right corner) */
   .sidenav .closebtn {
     position: absolute;
