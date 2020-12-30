@@ -14,7 +14,7 @@ const listener = taskRef.onSnapshot(querySnapshot => {
 
         }
         if (changes.type === "deleted") {
-            
+
         }
     })
 }) 
@@ -30,4 +30,8 @@ function addTask(name, timeframe) {
 
 function deleteTask(id) {
     const res = await taskRef.doc(id).delete();
+}
+
+function updateTask(fieldObject, id) {
+    const res = await taskRef.doc(id).update(fieldObject);
 }
