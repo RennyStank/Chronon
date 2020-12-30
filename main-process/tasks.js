@@ -4,7 +4,7 @@ admin.initializeApp();
 const db = admin.firestore();
 
 
-function addTask(user, index, name, timeframe) {
+function addTask(user, name, timeframe) {
     const newTask = {
         name: name,
         timeframe: timeframe
