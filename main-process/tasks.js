@@ -13,5 +13,5 @@ function addTask(user, name, timeframe) {
 }
 
 function deleteTask(id, user) {
-    const res = await db.collection("users").doc(user). collection("tasks").doc(id).delete();
+    const res = await db.collection("users").doc(user).collection("tasks").doc(id).delete();
 }
