@@ -35,3 +35,5 @@ function deleteTask(id) {
 function updateTask(fieldObject, id) {
     const res = await taskRef.doc(id).update(fieldObject);
 }
+
+export {addTask, deleteTask, updateTask, listener};
