@@ -1,12 +1,16 @@
+import { addTask, deleteTask, updateTask } from "../../../main-process/tasks"
+
 function todoAddTask() {
     if (tasks == []) {
         mainScreen.style.display = 'none';
         nullScreen.style.display = 'block';
     }
+    addTask();
     //add task
 }
 
 function todoDeleteTask() {
+    deleteTask();
     //delete task
     if (tasks == []) {
         mainScreen.style.display = 'none';
