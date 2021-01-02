@@ -16,7 +16,7 @@ namespace list {
         constructor(props) {
             super(props);
             this.state = {
-                tasks: []
+                tasks: [],
             }
         }
 
