@@ -48,6 +48,7 @@
     "electron-squirrel-startup": "^1.0.0",
     "firebase": "^8.2.1",
     "firebase-admin": "^9.4.2",
+    "firebaseui": "^4.7.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
