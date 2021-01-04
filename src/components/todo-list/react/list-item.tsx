@@ -12,7 +12,7 @@ namespace list {
         </button>
     )
 
-    export class TodoListView extends React.Component {
+    class TodoListView extends React.Component<Props, Object> {
         constructor(props) {
             super(props);
             this.state = {
@@ -28,4 +28,7 @@ namespace list {
             )
         }
     }
+
+    const listViewContainer = document.querySelector("mainSection");
+    ReactDOM.render(TodoListView, listViewContainer);
 }
