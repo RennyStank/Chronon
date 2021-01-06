@@ -30,5 +30,5 @@ namespace list {
     }
 
     const listViewContainer = document.querySelector("mainSection");
-    ReactDOM.render(TodoListView, listViewContainer);
+    ReactDOM.render(new TodoListView<task>, listViewContainer);
 }
